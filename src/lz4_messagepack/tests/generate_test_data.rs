@@ -1,7 +1,7 @@
 use serde_json::{json, Value as JsonValue};
-use std::fs::{self, File};
+use std::fs;
 use std::io::{self, Write, Read};
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use rmpv::{Value, Integer, Utf8String};
 use rmpv::encode::write_value;
 use lz4::block::compress;
@@ -148,7 +148,6 @@ fn generate_numeric_data(directory: &Path) -> io::Result<()> {
 // Gerar teste com dados mistos
 fn generate_mixed_data(directory: &Path) -> io::Result<()> {
     // Objetos aninhados
-    let mut buffer: Vec<u8> = Vec::new();
     let mut map = serde_json::Map::new();
     map.insert("name".to_string(), json!("Product"));
     map.insert("price".to_string(), json!(29.99));

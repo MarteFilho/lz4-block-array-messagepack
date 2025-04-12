@@ -4,7 +4,6 @@ use std::path::Path;
 use lz4::block::compress;
 use rmpv::Value;
 use rmpv::encode::write_value;
-use std::io::Cursor;
 
 // Import o código da aplicação principal
 #[path = "../src/main.rs"]
