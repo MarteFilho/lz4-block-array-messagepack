@@ -1,0 +1,16 @@
+[
+  {
+    "buffer": {
+      "data": [
+        204,
+        0
+      ],
+      "type": "Buffer"
+    },
+    "type": 98
+  },
+  {
+    "data": [],
+    "type": "Buffer"
+  }
+]
