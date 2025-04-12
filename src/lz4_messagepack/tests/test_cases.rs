@@ -7,9 +7,6 @@ use std::path::Path;
 // Import o código da aplicação principal
 #[path = "../src/main.rs"]
 mod app;
-use app::LZ4MessagePackProcessor;
-use app::OutputFormat;
-use app::MessagePackExt;
 
 // Função para gerar um arquivo de teste com dados MessagePack LZ4BlockArray
 fn generate_test_data(test_name: &str, content: &JsonValue) -> String {

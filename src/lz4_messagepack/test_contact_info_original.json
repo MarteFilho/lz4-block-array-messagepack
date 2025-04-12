@@ -1,0 +1,45 @@
+{
+  "addresses": [
+    {
+      "city": "São Paulo",
+      "coordinates": {
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      },
+      "country": "Brasil",
+      "is_primary": true,
+      "state": "SP",
+      "street": "Rua das Flores, 123",
+      "zip": "01234-567"
+    },
+    {
+      "city": "São Paulo",
+      "coordinates": null,
+      "country": "Brasil",
+      "is_primary": false,
+      "state": "SP",
+      "street": "Av. Paulista, 1000",
+      "zip": "01310-100"
+    }
+  ],
+  "email": "test@example.com",
+  "emergency_contacts": [
+    {
+      "name": "João Silva",
+      "phone": "+55 11 91234-5678",
+      "relationship": "Pai"
+    },
+    {
+      "name": "Maria Souza",
+      "phone": "+55 11 99876-5432",
+      "relationship": "Cônjuge"
+    }
+  ],
+  "phone": "+55 11 98765-4321",
+  "preferred_contact_method": "email",
+  "social_media": {
+    "linkedin": "linkedin.com/in/usuario_teste",
+    "twitter": "@usuario_teste"
+  },
+  "verified": true
+}

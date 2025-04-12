@@ -1,0 +1,70 @@
+{
+  "arrays": {
+    "array1": [
+      1,
+      2,
+      3
+    ],
+    "array2": [
+      "a",
+      "b",
+      "c"
+    ],
+    "array3": [
+      true,
+      false,
+      true
+    ]
+  },
+  "complex": {
+    "deep": {
+      "deeper": {
+        "deepest": [
+          {
+            "data": {
+              "x": 1,
+              "y": 2
+            },
+            "id": 1
+          },
+          {
+            "data": {
+              "x": 3,
+              "y": 4
+            },
+            "id": 2
+          }
+        ]
+      }
+    },
+    "mixed": [
+      1,
+      "string",
+      true,
+      {
+        "key": "value"
+      }
+    ]
+  },
+  "nested_maps": {
+    "nested1": {
+      "n1": 10,
+      "n2": 20
+    }
+  },
+  "objects": {
+    "obj1": {
+      "a": 1,
+      "b": 2
+    },
+    "obj2": {
+      "active": true,
+      "name": "Test"
+    }
+  },
+  "simple_values": {
+    "key1": 42,
+    "key2": "value",
+    "key3": true
+  }
+}

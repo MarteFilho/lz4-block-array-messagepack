@@ -13,7 +13,6 @@ Cargo.lock
 
 # IDE and editor files
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -35,3 +34,5 @@ tests/examples/*.json
 # Generated documentation
 /doc/
 /target/doc/ 
+config.bat
+node_modules
